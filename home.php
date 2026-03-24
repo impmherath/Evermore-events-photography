@@ -12,36 +12,6 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<<<<<<< Updated upstream
- 
-<?php @include 'header.php'; ?>
-=======
     
-<?php @include 'header.php'; ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--custom js file link -->
-
-<script src="js/script.js"></script>
-
-
->>>>>>> Stashed changes
 </body>
 </html>
