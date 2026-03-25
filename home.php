@@ -13,5 +13,14 @@
 </head>
 <body>
     
+<div class="container">
+
+    <?php include 'header.php'; ?>
+
+    <section class="home" id="home">
+        <div class="content">
+           
+        </div>
+    </section>
 </body>
 </html>

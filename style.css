@@ -4,7 +4,7 @@
     --pink: #ef5777;
     --white: #fff;
     --black: #222;
-    --transparent-white: 0 .5rem 1rem rgba(255, 255, 255, 3);
+    --transparent-black: 0 .5rem 1rem rgba(0, 0, 0, 0.3);
     --border: .2rem solid var(--black);
     --box-shadows: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
 }
@@ -36,12 +36,55 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:url("images/background.jpeg")no-repeat;
+    background:url("")no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
+
+
+section{
+    padding: 2rem;
+}
+    
+
 .header{
-    position: relative;
+    position: fixed;
+    top: 0%; left: 0%; right: 0%;
+    background: #000;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+ }   
+
+
+
+.header .logo{
+    font-size: 3.5rem;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #cfcece;
+}
+
+
+.btn {
+    background-color: #b58058;
+    color: white;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #8B5E3C;
 }
