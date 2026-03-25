@@ -16,10 +16,13 @@
 
    <div class="container">
         <a href="booking.php" class="btn">Request A Quote</a>
+          <div id="menu-btn" class="fas fa-bars"></div>
     </div>
-    
-    <div id="menu-btn" class="fas fa-bars"></div>
 
+   
+
+    
+    
 </section>
 
 
